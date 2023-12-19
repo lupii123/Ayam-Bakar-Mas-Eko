@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Website UMKM</title>
+    <meta name="description" content="demo buat situs web">
+    <meta name="keywords" content="demo buat situs web">
+    <meta property="og:title" content="Demo Website UMKM Naevaweb.com">
+    <meta property="og:url" content="https://demo2.naevaumkm.my.id/">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="demo buat situs web">
+    <meta property="og:site_name" content="NaevaUMKM.my.id">
+    <meta property="og:locale" content="id_ID">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Demo Website UMKM Naevaweb.com">
+    <meta name="twitter:url" content="https://demo2.naevaumkm.my.id/">
+    <meta name="twitter:description" content="demo buat situs web">
+    <meta property="og:image" content="https://demo2.naevaumkm.my.id/userfiles/uploads/bg-bebakaran-12.jpg">
+    <meta property="og:image:secure_url" content="https://demo2.naevaumkm.my.id/userfiles/uploads/bg-bebakaran-12.jpg">
+    <meta property="og:image:width" content="1366">
+    <meta property="og:image:height" content="625">
+    <meta name="twitter:image" content="https://demo2.naevaumkm.my.id/userfiles/uploads/bg-bebakaran-12.jpg">
+    <meta property="og:image:alt" content="Demo Website UMKM Naevaweb.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Naevaweb.com">
+    <link href="https://demo2.naevaumkm.my.id/userfiles/asset/vendors/bootstrap-4.1.3/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="https://demo2.naevaumkm.my.id/userfiles/asset/demo2_naevaumkm_my_id-builder.css?r=1701213946" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="https://demo2.naevaumkm.my.id/templates/logo/demo2_naevaumkm_my_id/favicon.ico">
+    <link href="https://demo2.naevaumkm.my.id/userfiles/asset/vendors/fontawesome-5.6.3/css/all.css" rel="stylesheet" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <script src="https://demo2.naevaumkm.my.id/userfiles/asset/vendors/jquery/jquery-3.3.1.min.js"></script>
+    <script src="https://demo2.naevaumkm.my.id/userfiles/asset/vendors/bootstrap-4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://demo2.naevaumkm.my.id/userfiles/asset/vendors/naevaweb/basic.js"></script>
+    <link href="https://demo2.naevaumkm.my.id/userfiles/asset/vendors/aos/dist/aos.css" rel="stylesheet">
+    <script src="https://demo2.naevaumkm.my.id/userfiles/asset/vendors/aos/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    
+
+<style>
+
+    @font-face {
+        font-family: 'Poppins', sans-serif;
+        src: url('Poppins-Medium.ttf');
+      }
+
+    .osSwitch{
+        position:relative;
+        display:inline-block;
+        width:34px;
+        height:15.3px;
+    }
+    
+    .osSwitch input{
+        opacity:0;
+        width:0;
+        height:0;
+    }
+
+    .osSlider{
+        position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        border-radius:34px;
+        background-color:#93a0b5;
+        transition:0.4s;
+    }
+    
+    .osSlider:before{
+        position:absolute;
+        content:'';
+        height:13px;
+        width:13px;
+        left:2px;
+        bottom:1px;
+        border-radius:50%;
+        background-color:white;
+        transition:0.4s;
+    }
+    
+    input:checked+.sliderGreen{
+        background-color:#04d289;
+    }
+    
+    input:checked+.sliderRed{
+        background-color:#ff3b30;
+    }
+    
+    input:not(:checked)+.defaultGreen{
+        background-color:#04d289;
+    }
+    
+    input:checked+.osSlider:before{
+        transform:translateX(17px);
+    }
+
+</style>
+    
+<style>
+    
+    .av-extension{
+        --dark-blue-background: #183360;
+        --active-blue-font-color: #183360;
+        --modal-header-darkblue-background: #05153f;
+        --grey-font-color: #93a0b5;
+        --background-color: #f1f4f8;
+        --foreground-color: #ffffff;
+        --tertiary-color: #05153f;
+        --primary-font-color: #183360;
+        --green-font-color: #04d289;
+        --red-font-color: #ff3b30;
+        --purple-font-color: #6726ff;
+        --orange-color: #ff8f11;
+        --default-font-size: 18px;
+        --modal-header-background: #f2f2f2;
+        --hover-orange-color: #d97a0e;
+    }
+    
+    .av-extension h1{
+        font-family:'Segoe UI Bold';
+        font-size:50px;
+        font-weight:700;
+        line-height:66.5px;
+    }
+    
+    .av-extension h2{
+        font-size:30px;
+        padding:0px;
+        margin:5px 0px;
+        margin-top:0px;
+    }
+    
+    .av-extension h3{
+        font-size:20px;
+        font-weight:normal;
+        white-space:pre-line;
+    }
+    
+    .av-extension p{
+        padding:0px;
+        margin:5px 0px;
+    }
+    
+    .av-extension a{
+        text-decoration:none;
+    }
+    
+    .av-extension .flex{
+        display:flex;
+    }
+    
+    .av-extension .grid{
+        display:grid;
+    }
+    
+    .av-extension .fwrap{
+        flex-wrap:wrap;
+    }
+    
+    .av-extension .ait{
+        align-items:top;
+    }
+    
+    .av-extension .aic{
+        align-items:center;
+    }
+    
+    .av-extension .jcl{
+        justify-content:left;
+    }
+    
+    .av-extension .jcc{
+        justify-content:center;
+    }
+    
+    .av-extension .jcr{
+        justify-content:right;
+    }
+    
+    .av-extension .tac{
+        text-align:center;
+    }
+    
+    .av-extension .w100{
+        width:100%;
+    }
+    
+    .av-extension .sb{
+        font-weight:600;
+    }
+    
+    .av-extension .borderButtonColor{
+        color:var(--orange-color);
+        border:3px solid var(--orange-color);
+    }
+    
+    .av-extension .paddinglr{
+        padding:100px 50px;
+    }
+    
+    .av-extension .redColor{
+        color:var(--red-font-color);
+        fill:var(--red-font-color);
+    }
+    
+    .av-extension .greenColor{
+        color:var(--green-font-color);
+        fill:var(--green-font-color);
+    }
+    
+    .av-extension .purpleColor{
+        color:var(--purple-font-color);
+    }
+    
+    .av-extension .orangeColor{
+        color:var(--orange-color);
+    }
+    
+    .av-extension .content{
+        color:var(--primary-font-color);
+        margin:auto;
+        max-width:85%;
+        padding-top:30px;
+        padding-bottom:20px;
+    }
+    
+    .av-extension .sectionContent{
+        margin-top:80px;
+        margin-bottom:40px;
+        font-size:22px;
+        color:var(--primary-font-color);
+    }
+    
+    .av-extension .btnAction{
+        min-width:170px;
+        padding:10px 25px;
+        color:var(--orange-color);
+        border:2.5px solid var(--orange-color);
+        border-radius:39px;
+        font-weight:600;
+        background-color:transparent;
+    }
+    
+    .av-extension .btnAction:hover{
+        background-color:var(--orange-color);
+        color:white;
+    }
+    
+    .av-extension .btnDwm{
+        background:linear-gradient(#fff, #fff) padding-box,linear-gradient(to right, #8526ff, #2a26ff) border-box;
+        border:2.5px solid transparent;
+        color:#7644ff;
+    }
+    
+    .av-extension .btnDwm:hover{
+        background:linear-gradient(to right, #8526ff, #2a26ff) padding-box,linear-gradient(to right, #8526ff, #2a26ff) border-box;
+        border:2.5px solid transparent;
+    }
+    
+    .av-extension .btnBuy{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        gap:10px;
+        min-width:170px;
+        padding:15px 40px;
+        color:#fff;
+        border-radius:39px;
+        font-weight:600;
+        background-color:var(--tertiary-color);
+        border:none;cursor:pointer;
+    }
+    
+    .av-extension .btnBuy:hover{
+        background-color:#0f3cb0;
+    }
+    
+    .av-extension .btnBuy:active{
+        background-color:#0f3391;
+    }
+    
+    .av-extension .btnBuyOrange{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        gap:10px;
+        min-width:170px;
+        padding:15px 40px;
+        color:#fff;
+        border-radius:39px;
+        font-weight:600;
+        background-color:var(--orange-color);
+        border:none;
+        cursor:pointer;
+    }
+    
+    .av-extension .btnBuyOrange:hover{
+        background-color:#ffa846;
+    }
+    
+    .av-extension .btnBuyOrange:active{
+        background-color:#d97a0e;
+    }
+    
+    .av-extension .sectionTitle{
+        font-weight:bold;
+        font-size:20px;
+        margin-bottom:25px;
+    }
+    
+    .av-extension .sectionTitle img{
+        margin-left:5px;
+        margin-right:13px;
+    }
+    
+    .av-extension .fullHeadContent{
+        height:400px;
+        background:var(--tertiary-color);
+        box-shadow:-3px 0px 3px rgba(0,0,0,0.1);
+        border-radius:0px 0px 22px 22px;
+        color:var(--foreground-color);
+    }
+    
+    .av-extension .fullHeadContent img{
+        width:442px;
+    }
+    
+    .av-extension .fullHeadContent p{
+        margin:10px;
+    }
+    
+    .av-extension .spinner{
+        width:120px;
+        height:120px;
+    }
+    
+    @media screen and (min-width: 1500px){
+        .av-extension .content{max-width:70%}
+    }
+    
+    @keyframes spin{
+        0%{
+            transform:rotate(0deg)
+        }
+        100%{
+            transform:rotate(360deg)
+        }
+    }
+
+</style>
+    <style>
+        .checkboxContainer{
+            display:block;
+            position:relative;
+            padding-left:35px;
+            margin-bottom:12px;
+            user-select:none;
+            }
+
+        .checkboxContainer input{
+            position:absolute;
+            opacity:0;
+            height:0;
+            width:0;
+            }
+
+        .checkboxContainer .checkmark{
+            position:absolute;
+            top:0;
+            left:0;
+            height:18px;
+            width:18px;
+            border:1px solid #cad0dd;
+            border-radius:100%;
+            }
+
+        .checkboxContainer .checkmark.greenColor{
+            border:2.5px solid #cad0dd;
+            border-radius:8px
+            }
+
+        .checkboxContainer:hover input ~ .checkmark{
+            background-color:#cad0dd;
+            }
+
+        .checkboxContainer input:checked ~ .checkmark{
+            background-color:var(--primary-font-color)
+            }
+
+        .checkboxContainer input:checked ~ .purpleColor{
+            background-color:var(--purple-font-color)
+            }
+
+            .checkboxContainer input:checked ~ .greenColor{
+                background-color:var(--green-font-color);
+                border:2px solid var(--green-font-color);
+                border-radius:8px;
+            }
+
+            .checkmark:after{
+                content:'';
+                position:absolute;
+                display:none;
+            }
+        
+            .checkboxContainer input:checked ~ .checkmark:after{
+                display:block;
+            }
+            
+            .checkboxContainer .checkmark:after{
+                left:6px;
+                top:3px;
+                width:3px;
+                height:7px;
+                border:solid white;
+                border-width:0 3px 3px 0;
+                transform:rotate(45deg)''
+            }
+            
+            .checkboxContainer .uncheckAll:after{
+                left:7.5px;
+                top:4px;
+                width:0px;
+                height:9px;
+                border-width:0 3px 0 0;
+                transform:rotate(90deg);
+            }
+
+            .sectionSelectRadio{
+                display:none;
+            }
+            
+            .sectionSelectRadio+label{
+                padding:7px 2px;
+                font-size:20px;
+                font-weight:700;
+                margin-right:50px;
+                color:var(--primary-font-color);
+                border:0px;
+                background-color:transparent;
+            }
+            
+            .sectionSelectRadio:checked+label{
+                border-bottom:4px solid var(--purple-font-color);
+            }
+    </style>
+
+</head>
+
+<bod data-spy="scroll" data-target="#scrollspy" data-offset="0" data-aos-easing="ease-out-sine" data-aos-duration="600" data-aos-delay="0">
+    <a id="top" class="clear"></a>
+    <header id="header" class="bg-white ">
+        <div class="container clearfix">
+            <div class="row justify-content-between clearfix">
+                <div class="col-md-4 col-sm-3 d-none d-md-inline-flex align-self-center">
+                    <a href="#" target="_blank" class="btn btn-sm bg-color1_dark bg-color1_dark_dark-hover text-white rounded rounded-circle mr-2" style="height: 30px; width: 30px;">
+                        <i class="bi bi-facebook"></i></a>
+                        <a href="#" target="_blank" class="btn btn-sm bg-color1_dark bg-color1_dark_dark-hover text-white rounded rounded-circle mr-2" style="height: 30px; width: 30px;">
+                            <i class="bi bi-instagram"></i></a>
+                </div>
+                    <div class="col-md-4 col-sm-5 col-8 align-self-center text-left text-lg-center">
+                        <div id="logo" class="my-2 m-lg-2">
+                            <a href="#" class="navbar-brand  align-middle  text-dark stack_font2 text-uppercase h3i">
+                                <img src="#" class="d-inline-block align-top logo-logo" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-4 align-self-center">
+                        <div class="text-right float-right d-none d-lg-inline-block">
+                            <div class="text-left mb-1">Hubungi kami di</div>
+                            <a href="#" class="btn btn-sm btn-outline-secondary bg-white">
+                                <i class="bi bi-whatsapp"></i>
+                                <span class="font-weight-bold text-dark">62 812-7146-7000</span>
+                            </a>
+                        </div>
+                        <div class="text-right float-right d-inline-block d-lg-none">
+                            <button class="btn btn-light border-0" type="button" id="mynavbar-toggle">
+                                <span class="fa fa-bars fa-lg"></span>
+                            </button>
+                        </div>
+                        <div class="clear">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-lg-block" id="mynavbar" style="display:none">
+                <nav class="navbar navbar-expand-lg bg-color1_dark navbar-dark stack_font1 text-uppercase ">
+                    <div class="container clearfix">
+                        <div class="navbar-collapse ">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" target="_self" href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="page-blog-0" aria-haspopup="true" aria-expanded="false">Blog</a>
+                                    <ul class="dropdown-menu" aria-labelledby="page-blog-0">
+                                        <li>
+                                            <a class="dropdown-item" href="#">Artikel</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Promo &amp; Diskon</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Kegiatan UMKM</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Produk &amp; Layanan</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Profil UMKM</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Kontak Kami</a>
+                                </li>
+                            </ul>
+                            <form method="post" action="/search/" class="form-inline d-none d-lg-flex">
+                                <input class="form-control form-control-sm mr-sm-2" type="text" name="q" placeholder="Pencarian" aria-label="Pencarian">
+                                <button class="btn btn-sm btn-dark my-2 my-sm-0" type="submit">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+                <div class="bg-color2_light text-center p-3 d-block d-lg-none w-100">
+                    <form method="post" action="/search/">
+                        <div class="float-left mr-2" style="width: 80%;">
+                            <input type="text" size="20" name="q" id="q" class="form-control form-control-sm" value="" placeholder="Pencarian">
+                        </div>
+                        <div class="float-left">
+                            <button class="btn btn btn-sm bg-color1 text-white" type="submit" aria-pressed="true">
+                                <i class="fa fa-search">
+                                </i>
+                            </button> &nbsp; 
+                        </div>
+                        <div class="clear">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </header>
+<style>
+    .logo-logo{
+	max-width: 300px;
+}
+    .logo-icon{
+	max-width: 64px;
+}
+#header{
+	}
+    #mynavbar .dropdown-item{
+	text-transform: capitalize;	
+	font-weight: normal;
+}
+@media only screen and (max-width: 576px) {
+	.logo-logo, .logo-icon{
+		max-height: 64px;
+	}
+	.logo-logo{
+    	max-width: 250px;
+    }
+}
+
+</style>
+<script>
+$( "#mynavbar-toggle" ).click(function() {
+  $( "#mynavbar" ).toggle();
+});
+</script>
+<script>
+  
+  $( '.dropdown-menu .dropdown-toggle' ).on('click', function() {
+	  
+	  var $el = $(this);
+	  var $parent = $el.offsetParent(".dropdown-menu");
+	  
+	  if (!$el.next().hasClass("show")) {
+		  $el.parents('.dropdown-menu').first().find(".show").removeClass("show");
+	  }
+	  $el.next(".dropdown-menu").toggleClass("show").parent("li").toggleClass("show");
+	  
+	  $el.parents("li.nav-item.dropdown.show").on("hidden.bs.dropdown", function () {
+		  $(".dropdown-menu .show").removeClass("show");
+	  });
+	  
+	  if (!$parent.parent().hasClass("navbar-nav")) {
+		  $el.next().css({"top":$el[0].offsetTop,"left":$parent.outerWidth()});
+	  }
+	  
+	  return false;
+  });
+
+  $('.mysearch-toggle').on('click', function() {
+        if ($('.mysearch').is(':visible')) {
+            $(".mysearch").slideUp()
+        } else {
+            $(".mysearch").slideDown()
+        }
+    });
+	var ch = 0;
+	function header_spacer(){
+		var h = $('#header').height();
+		if(h!=ch){
+			$('#navbar-spacer').height(h);
+		}
+		setTimeout('header_spacer()',100);
+	}
+	header_spacer();
+  </script>
+  <a id="komponen-745" class="clear"></a>
+  <div class="pagecomponentwrap    " id="pagecomponentwrap-745" style="">
+    <div class="container-full">
+        <div class="elementborder" id="elementborder-745">
+            <div class="carousel slide" id="elementwrap-745">
+                <div class="carousel-inner" role="listbox">
+                    <div class="elementitemwrap carousel-item" id="elementitemwrap-745-0">
+                        <picture>
+                            <source srcset="img/nila_bakar.jpg" media="(min-width: 768px)">
+                            <source srcset="/userfiles/uploads/bg-bebakaran-13.jpg" media="(min-width: 480px)">
+                            <img srcset="/userfiles/uploads/bg-bebakaran-13.jpg" alt="" class="d-block w-100" id="elementimage-745-0">
+                        </picture>
+                        </div>
+                        <div class="elementitemwrap carousel-item active" id="elementitemwrap-745-1">
+                            <picture>
+                                <source srcset="/userfiles/uploads/bg-boga-4.jpg" media="(min-width: 768px)"><source srcset="/userfiles/uploads/bg-boga-4.jpg" media="(min-width: 480px)">
+                                <img srcset="/userfiles/uploads/bg-boga-4.jpg" alt="" class="d-block w-100" id="elementimage-745-1">
+                            </picture>
+                        </div>
+                        <div class="elementitemwrap carousel-item" id="elementitemwrap-745-2">
+                            <picture>
+                                <source srcset="img/nila_bakar.jpg" media="(min-width: 768px)">
+                                <source srcset="/userfiles/uploads/bg-bebakaran-12.jpg" media="(min-width: 480px)">
+                                <img srcset="/userfiles/uploads/bg-bebakaran-12.jpg" alt="" class="d-block w-100" id="elementimage-745-2">
+                            </picture>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#elementwrap-745" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span></a>
+                <a class="carousel-control-next" href="#elementwrap-745" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<a id="komponen-748" class="clear"></a>
+<div class="pagecomponentwrap" id="pagecomponentwrap-748" style="">
+    <div class="container">
+        <div class=" pb-5 pt-75 ">
+            <div class="row justify-content-center aos-init aos-animate" data-aos="">
+                <div class="textwrap col-lg-10 text-center aos-init aos-animate" data-aos="">
+                    <h2 class="componenttitle stack_font2 text-color1 display-5 text-capitalize font-weight-bold ">Selamat Datang di UMKM Kami</h2>
+                    <h2 class="componentsubtitle stack_font1">Kami memberikan layanan yang terbaik </h2>
+                    <div class="description">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a id="komponen-789" class="clear"></a>
+<div class="pagecomponentwrap  bgcolor4_light_most-bgwhite-top" id="pagecomponentwrap-789" style="background: #edddda; background: -webkit-linear-gradient(to top, #edddda,#FFFFFF); background: linear-gradient(to top, #edddda,#FFFFFF);">
+    <div class="container  ">
+        <div class=" pb-5   pt-5 ">
+            <div class="row aos-init" data-aos="">
+                <div class="textwrap col-lg-7 pb-4 aos-init" data-aos="">
+                    <h2 class="componenttitle stack_font2 text-capitalize">Profil UMKM Kami</h2>
+                    <div class="description  line-height-160">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br></p>
+                    </div>
+                    <div class="py-2">
+                        <a href="#" target="" class="nbtn bg-color1 border-color1 text-white-color  bg-color2-hover  border-color2-hover  mr-0 mr-md-2 mb-3 mb-md-0" role="button" style="">Kunjungi Alamat Kami</a>
+                        <a href="#" target="" class="nbtn bg-success-color border-success-color text-white-color   mr-0 mr-md-2 mb-3 mb-md-0" role="button" style="">Chat WhatsApp</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 aos-init" data-aos="">
+                    <div class="rounded aos-init" data-aos="">
+                        <img src="img/nila_bakar.jpg" alt="Profil Perusahaan Kami" class="w-100 rounded" id="componentimage-789">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a id="komponen-747" class="clear"></a>
+<div class="pagecomponentwrap" id="pagecomponentwrap-747" style="">
+    <div class="container">
+        <div class=" pb-2  pt-5 ">
+            <div class="row no-gutters justify-content-center aos-init" data-aos="fade-up">
+                <div class="textwrap col-12 text-left aos-init" data-aos="">
+                    <div class=" ">
+                        <h2 class="componenttitle stack_font2">Menu Terbaru</h2>
+                        <h4 class="componentsubtitle stack_font1">Kualitas Terbaik. Harga Bersaing</h4>
+                        <div class="description">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row   mb-2 mt-4 " id="elementwrap-747">
+                        <div class="elementitemwrap col-xl-3 col-lg-4 col-md-6 col-sm-6 aos-init" id="elementitemwrap-747-0" data-aos="fade-down">
+                            <div class="  mb-4   text-center border" style="">
+                                <div class="image     text-center">
+                                    <img src="img/ayam_bakar.jpg" alt="Ayam Bakar" class=" w-100  " id="elementimage-747-0">
+                                </div>
+                                <div class="pb-3 pl-3 pr-3 pt-3">
+                                    <h5 class="elementtitle stack_font1 text-dark  text-center text-capitalize ">Ayam Bakar</h5>
+                                    <div class="description text-center  stack_font1">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non leo efficitur.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementitemwrap col-xl-3 col-lg-4 col-md-6 col-sm-6 aos-init" id="elementitemwrap-747-1" data-aos="fade-down">
+                            <div class="  mb-4  text-center border" style="">
+                                <div class="image   text-center">
+                                    <img src="img/ayam_kremes.jpg" alt="Ayam Kremes" class=" w-100  " id="elementimage-747-1">
+                                </div>
+                                <div class="pb-3 pl-3 pr-3 pt-3">
+                                    <h5 class="elementtitle stack_font1 text-dark   text-center text-capitalize ">Ayam Kremes</h5>
+                                    <div class="description text-center  stack_font1">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non leo efficitur.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementitemwrap col-xl-3 col-lg-4 col-md-6 col-sm-6 aos-init" id="elementitemwrap-747-2" data-aos="fade-down">
+                            <div class="  mb-4  text-center border" style="">
+                                <div class="image  text-center">
+                                    <img src="img/lele_bakar.jpg" alt="Lele Bakar" class=" w-100  " id="elementimage-747-2">
+                                </div>
+                                <div class="pb-3 pl-3 pr-3 pt-3">
+                                    <h5 class="elementtitle stack_font1 text-dark  text-center text-capitalize ">Lele Bakar</h5>
+                                    <div class="description text-center  stack_font1">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non leo efficitur.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementitemwrap col-xl-3 col-lg-4 col-md-6 col-sm-6 aos-init" id="elementitemwrap-747-3" data-aos="fade-down">
+                            <div class="mb-4  text-center border" style="">
+                                <div class="image  text-center">
+                                    <img src="img/lele_goreng.jpg" alt="Lele Goreng" class=" w-100  " id="elementimage-747-3">
+                                </div>
+                                <div class="pb-3 pl-3 pr-3 pt-3">
+                                    <h5 class="elementtitle stack_font1 text-dark   text-center text-capitalize ">Lele Goreng</h5>
+                                    <div class="description text-center  stack_font1">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non leo efficitur.<br></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a id="komponen-788" class="clear"></a>
+<div class="pagecomponentwrap" id="pagecomponentwrap-788" style=" background:  url('/userfiles/uploads/bg-catering-4.jpg') no-repeat center center ; background-size: cover">
+    <div class="container">
+        <div class=" pb-150   pt-150 ">
+            <div class="row no-gutters justify-content-center aos-init" data-aos="fade-up">
+                <div class="textwrap col-12 text-center aos-init" data-aos="">
+                    <div class="">
+                        <div class="description">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row no-gutters" id="elementwrap-788">
+                        <div class="elementitemwrap col-xl-3 col-lg-3 col-md-6 col-sm-6 aos-init" id="elementitemwrap-788-0" data-aos="fade-down">
+                            <div class="bg-white-color      pb-3 pl-3 pr-3 pt-3     border border-light-color" style="">
+                                <div class="icon mb-2 ">
+                                    <div class="text-center  icon-40    ">
+                                        <i class='fa fa-whatsapp' style='font-size:36px; color:red'></i>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="pb-3   ">
+                                    <h4 class="elementtitle stack_font1 text-dark       text-capitalize ">
+                                        <a target="" class="text-dark">Konsultasi</a>
+                                    </h4>
+                                    <div class="description   stack_font1    "><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non leo efficitur.</p>
+                                    </div>
+                                    <div class="py-2">
+                                        <a target="" class="nbtn bg-color1 border-color1 text-white-color  bg-color1_dark-hover text-warning-hover border-color1_dark-hover mr-0 mr-md-2 mb-3 mb-md-0" role="button" style="">Kontak WhatsApp</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementitemwrap col-xl-3 col-lg-3 col-md-6 col-sm-6 aos-init" id="elementitemwrap-788-1" data-aos="fade-down">
+                            <div class="bg-white-color      pb-3 pl-3 pr-3 pt-3     border border-light-color" style="">
+                                <div class="icon mb-2 ">
+                                    <div class="text-center  icon-40    ">
+                                        <i class="fa fa-shopping-cart" style="font-size:36px; color:red"></i>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="pb-3   ">
+                                    <h4 class="elementtitle stack_font1 text-dark       text-capitalize ">
+                                        <a target="" class="text-dark">Order Online</a>
+                                    </h4>
+                                    <div class="description   stack_font1    ">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non leo efficitur.</p>
+                                    </div>
+                                    <div class="py-2">
+                                        <a target="" class="nbtn bg-color1 border-color1 text-white-color  bg-color1_dark-hover text-warning-hover border-color1_dark-hover mr-0 mr-md-2 mb-3 mb-md-0" role="button" style="">Daftar Menu</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementitemwrap col-xl-3 col-lg-3 col-md-6 col-sm-6 aos-init" id="elementitemwrap-788-2" data-aos="fade-down">
+                            <div class="bg-white-color      pb-3 pl-3 pr-3 pt-3     border border-light-color" style="">
+                                <div class="icon mb-2 ">
+                                    <div class="text-center  icon-40">
+                                        <i class="fa fa-map-marker" style="font-size:36px; color:red"></i>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="pb-3   ">
+                                    <h4 class="elementtitle stack_font1 text-dark       text-capitalize ">
+                                        <a target="" class="text-dark">Kunjungi Kami</a>
+                                    </h4>
+                                    <div class="description   stack_font1">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non leo efficitur.</p>
+                                    </div>
+                                    <div class="py-2">
+                                        <a target="" class="nbtn bg-color1 border-color1 text-white-color  bg-color1_dark-hover text-warning-hover border-color1_dark-hover mr-0 mr-md-2 mb-3 mb-md-0" role="button" style="">Lihat Peta</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementitemwrap col-xl-3 col-lg-3 col-md-6 col-sm-6 aos-init" id="elementitemwrap-788-3" data-aos="fade-down">
+                            <div class="bg-white-color      pb-3 pl-3 pr-3 pt-3     border border-light-color" style="">
+                                <div class="icon mb-2 ">
+                                    <div class="text-center  icon-40    ">
+                                        <i class='fa fa-file-alt' style='font-size:36px; color:red'></i>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="pb-3   ">
+                                    <h4 class="elementtitle stack_font1 text-dark       text-capitalize ">
+                                        <a target="" class="text-dark">Artikel</a>
+                                    </h4>
+                                    <div class="description   stack_font1    ">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non leo efficitur.<br>
+                                        </p>
+                                    </div>
+                                    <div class="py-2">
+                                        <a target="" class="nbtn bg-color1 border-color1 text-white-color  bg-color1_dark-hover text-warning-hover border-color1_dark-hover mr-0 mr-md-2 mb-3 mb-md-0" role="button" style="">Baca Blog</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a id="komponen-746" class="clear"></a>
+<div class="pagecomponentwrap  bgcolor1_dark_most-bgcolor1-left   " id="pagecomponentwrap-746" style="background: #511009; background: -webkit-linear-gradient(to left, #511009,#C92815); background: linear-gradient(to left, #511009,#C92815);">
+    <div class="container    pb-2   pt-3 rounded">
+        <div class="row align-items-center aos-init" data-aos="">
+            <div class="textwrap col-lg-8 text-white-color aos-init" data-aos="">
+                <h3 class="componenttitle mb-2 mb-lg-0 stack_font2">Konsultasi dan Pemesanan</h3>
+                <div class="d-none d-lg-block description">
+                    <p>Silahkan hubungi kami melalui telepon dan whatsapp</p>
+                </div>
+            </div>
+            <div class="col-lg-4 text-left text-lg-right aos-init" data-aos="">
+                <div class="py-2">
+                    <a href="#" target="_blank" class="nbtn  border-white-color text-white-color  bg-white-hover text-dark-hover   mr-0 mr-md-2 mb-3 mb-md-0" role="button" style="">Kontak Kami</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a id="komponen-773" class="clear"></a>
+    <a id="komponen-774" class="clear"></a>
+    <div class="pagecomponentwrap" id="pagecomponentwrap-774" style="">
+        <div class="container    pb-5   pt-5 ">
+            <div class="row aos-init" data-aos="fade-up">
+                <div class="textwrap col-lg-6 aos-init" data-aos="">
+                    <h4 class="componenttitle stack_font1">Warung Kami</h4>
+                    <h1 class="componentsubtitle stack_font2">Informasi Kontak</h1>
+                        <div class="description">
+                            <p>Jika Anda memiliki pertanyaan, jangan ragu untuk mengirimi kami pesan. Kami menantikan kabar dari Anda! Kami membalas dalam 24 jam!<br></p>
+                        </div>
+                        <div class="elementborder" id="elementborder-774">
+                            <div class="row  justify-content-center mb-4 mt-4 " id="elementwrap-774">
+                                <div class="elementitemwrap col-xl-12 pb-0 aos-init" id="elementitemwrap-774-3" data-aos="fade-up">
+                                    <div class="media pb-0   mb-2" style="">
+                                        <div class="icon ">
+                                            <div class="text-center mx-auto    rounded-circle ">
+                                                <i class="fa fa-user" style="font-size:24px"></i>
+                                            </div>
+                                            <div class="clear"></div>
+                                            </div>
+                                            <div class="media-body  pl-3 pr-3 pt-1">
+                                                <div class="elementtitle stack_font1        text-capitalize">
+                                                    <span class="">Contact Person</span>: &nbsp; Mas Eko</div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementitemwrap col-xl-12 pb-0 aos-init" id="elementitemwrap-774-3" data-aos="fade-up">
+                                        <div class="media pb-0   mb-2" style="">
+                                            <div class="icon ">
+                                                <div class="text-center mx-auto    rounded-circle ">
+                                                    <i class="fa fa-map-marker" style="font-size:24px"></i>
+                                                </div>
+                                            <div class="clear"></div>
+                                            </div>
+                                            <div class="media-body  pl-3 pr-3 pt-1">
+                                                <div class="elementtitle stack_font1        text-capitalize">
+                                                    <span class="">Alamat</span>: &nbsp; Jl. Airan Raya, Way Huwi, Lampung Selatan</div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div class="elementitemwrap col-xl-12 pb-0 aos-init" id="elementitemwrap-774-3" data-aos="fade-up">
+                                                <div class="media pb-0   mb-2" style="">
+                                                    <div class="icon ">
+                                                        <div class="text-center mx-auto    rounded-circle ">
+                                                            <i class='fa fa-whatsapp' style='font-size:24px'></i>
+                                                        </div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                    <div class="media-body  pl-3 pr-3 pt-1">
+                                                        <div class="elementtitle stack_font1        text-capitalize">
+                                                            <span class="">WhatsApp</span>: &nbsp; 081271467000</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementitemwrap col-xl-12 pb-0 aos-init" id="elementitemwrap-774-3" data-aos="fade-up">
+                                                    <div class="media pb-0   mb-2" style="">
+                                                        <div class="icon ">
+                                                            <div class="text-center mx-auto    rounded-circle ">
+                                                                <i class="fa fa-envelope" style="font-size:24px"></i>
+                                                            </div>
+                                                            <div class="clear">
+                                                            </div>
+                                                        </div>
+                                                        <div class="media-body  pl-3 pr-3 pt-1">
+                                                            <div class="elementtitle stack_font1        text-capitalize">
+                                                                <span class="">Email</span>: &nbsp; info@naevaweb.com</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 aos-init" data-aos="fade-up">
+                                                        <p class="pt-3 pb-0 mb-0">Temukan kami di Social Media</p>
+                                                        <ul class="list-inline pt-0 mt-0">
+                                                            <li class="list-inline-item">
+                                                                <a href="#" target="_blank" class="text-dark">
+                                                                    <i class="fa fa-facebook-square" style="font-size:24px"></i>
+                                                                </a>
+                                                            </li>
+                                                                <li class="list-inline-item">
+                                                                    <a href="#" target="_blank" class="text-dark">
+                                                                        <i class="fa fa-instagram" style="font-size:24px"></i>
+                                                                        </a>
+                                                                    </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 aos-init" data-aos="">
+                                                        <div class="aos-init" data-aos="">
+                                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.4226503181353!2d105.29709587474349!3d-5.3522891946264135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40c521eed271c5%3A0x72e09a20c0453da!2sAyam%20bakar%20mas%20Eko%20(ABME)!5e0!3m2!1sid!2sid!4v1701311988355!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+<style>
+    #pagecomponentwrap-774  iframe{
+    width: 100%;
+}
+</style>
+<footer class="footer-copyright">
+    <div class="text-dark bg-light  px-2 py-4 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 mb-md-0 mb-3">
+                    <h5 class="text-uppercase pb-2">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" class="text-dark">Produk &amp; Layanan</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-dark">Profil Perusahaan</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-dark">Kontak Kami</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <div class="col-md-3 mt-md-0 mt-3">
+                    <h5 class="text-uppercase pb-2">Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li class="pb-2">
+                            <i class="fa fa-user" style="font-size:24px"></i> &nbsp; Mas Eko</li>
+                            <li class="pb-2">
+                                <i class="fa fa-map-marker" style="font-size:24px"></i> &nbsp; Jl. Airan Raya, Way Huwi, Lampung Selatan</li>
+                                <li class="pb-2">
+                                    <i class='fa fa-whatsapp' style='font-size:24px'></i> &nbsp; +62 812-7146-7000</li>
+                                    <li class="pb-2">
+                                        <i class="fa fa-envelope" style="font-size:24px"></i> &nbsp; maseko@gmail.com</li></ul>
+                    <ul class="list-inline pt-0 mt-0">
+                        <li class="list-inline-item">
+                            <a href="#" target="_blank" class="text-dark ">
+                                <i class="fa fa-facebook-square" style="font-size:24px"></i>
+                            </a>
+                        </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank" class="text-dark ">
+                                    <i class="fa fa-instagram" style="font-size:24px"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="col-md-7 mt-md-0 mt-3">
+                    <h5 class="text-uppercase pb-2">About Us</h5>
+                    <div style="line-height: 180%">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<a class="defaultwhatsapp position-fixed d-block text-center shadow  btn text-white   border-light" style="background: #511009; background: -webkit-linear-gradient(to bottom, #511009,#511009); background: linear-gradient(to bottom, #511009,#511009);;border-width: 2px;border-style: solid;border-radius: 25px" href="#" target="_blank"> Kontak Kami <i class='fa fa-whatsapp' style='font-size:18px'></i> </a>
+
+<style>
+
+    .defaultwhatsapp{
+	right: 10px;
+	bottom: 10px;
+    color: white;
+    }
+
+</style>
+
+<a class="scrolltotop btn btn-sm btn-dark" href="#top">
+    <span class="fa fa-lg fa-arrow-alt-circle-up"></span>
+</a>
+<div class="modal fade modal-primary" id="modalSBOX" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+	<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+		<div class="modal-content" id="modalSBOXContent">
+		</div>
+	</div>
+</div>
+
+<script>modalSBoxSetup();</script>
+<style>
+.multilanguage{
+    position: fixed;
+    left: 15px;
+	bottom: 10px;
+}
+
+.scrolltotop{
+    position: fixed;
+	left: 15px;
+	bottom: 10px;
+    opacity: 0.4;
+    display: none;
+}
+
+.scrolltotop-multilanguage{
+    position: fixed;
+	left: 15px;
+	bottom: 55px;
+    opacity: 0.4;
+    display: none;
+}
+
+.scrolltotop:hover{
+    opacity: 0.7;
+}
+
+.chaptcha-imagewrap{
+    padding-bottom: 10px;
+    text-align: left
+}
+
+.chaptcha-image{
+    float: left;
+}
+
+.chaptcha-image img{
+    border: 1px solid #ddd;
+}
+
+.chaptcha-refresh a{
+    width: 42px;
+    height: 42px;
+    float: left;
+    background: #efefef;
+    display: block;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.chaptcha-refresh img{
+    width: 24px;
+    padding-top: 8px;
+    vertical-align: top !important;
+}
+
+.clear, .clear_all{
+    clear: both;
+}
+
+</style>
+<script>
+var scroll_time = 500;
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, scroll_time);
+});
+$(window).scroll(function() {
+    if ($(this).scrollTop()>300) {
+        $("a[href='#top']").fadeIn();
+    } else {
+        $("a[href='#top']").fadeOut();
+    }
+});
+</script>
+
+    <a id="bottom" class="clear"></a>
+    <script>
+        $(document).ready(function(){
+            $(".carousel").carousel();AOS.init({
+                easing: "ease-out-sine", once: true, offset:50, duration: 600});});
+    </script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
